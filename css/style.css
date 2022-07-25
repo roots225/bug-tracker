@@ -1,0 +1,40 @@
+.button {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: rgb(52, 52, 185);
+  color: #fff;
+}
+
+.button-logout {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.form {
+  display: block;
+}
+.form-group {
+  margin: 10px 0;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-direction-column {
+  flex-direction: column;
+}

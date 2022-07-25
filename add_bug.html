@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="d-flex flex-direction-column">
+        <h2>Add Bug Tracker</h2>
+        <div>
+            <form action="" class="add-form form" id="add-bug">
+                <div class="form-group">
+                    <label for="title">title</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">description</label>
+                    <input type="text" name="description" id="description" required>
+                </div>
+                <div class="form-group">
+                    <button class="button button-primary">ENREGISTRER</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <button class="button button-primary button-logout" id="logout">Logout</button>
+    <script src="js/jquery.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/add.js"></script>
+</body>
+</html>
